@@ -39,7 +39,7 @@ The solution contains the following projects
 | *api/country* | Get  | Gets the list of countries | Yes | No |
 | *api/estimation/{estimationId}* | Get | Gets the already created estimation | Yes | No |
 | *api/estimation* | Post | Create a new estimation | Yes | No |
-| *api/beneficiary* | Get | Gets All beneficiaries | No | Yes |
+| *api/beneficiary/{countryCode}/{userId}* | Get | Gets All beneficiaries | No | Yes |
 | *api/beneficiary/{beneficiaryId}* | Get | Gets the selected beneficiary | No | Yes |
 | *api/beneficiary* | Post | Creates a new beneficiary | No | Yes |
 | *api/beneficiary/account* | Get | Gets all the mapped accounts | No | Yes |
